@@ -32,4 +32,11 @@ public class SinglyLinkedList{
             System.out.println(runner.value);
         }
     }
+    public Node find(int value){
+        Node runner = head;
+        while(runner.value != value){
+            runner = runner.next;
+        }
+        return runner;
+    }
 }

@@ -10,5 +10,6 @@ public class ListTester{
         sll.remove();
         sll.remove();
         sll.printValues();
+        System.out.println(sll.find(10));
     }
 }
